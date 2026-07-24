@@ -1,17 +1,120 @@
-# todo_app
+# 🚀 Premium Todo App
 
-A new Flutter project.
+A modern, feature-rich Todo application built with Flutter.
 
-## Getting Started
+Designed with a premium UI and smooth user experience while demonstrating clean architecture and state management.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Features
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+✅ Beautiful Modern UI
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+✅ Responsive Layout
+
+✅ SharedPreferences Authentication
+
+✅ Persistent Login
+
+✅ Task Management
+
+✅ Create Todo
+
+✅ Edit Todo
+
+✅ Delete Todo
+
+✅ Search Tasks
+
+✅ Statistics Dashboard
+
+✅ Completed & Pending Tracking
+
+✅ Custom Theme
+
+✅ Smooth Animations
+
+✅ Material Design 3
+
+---
+
+## 📱 Screens
+
+- Splash Screen
+- Login Screen
+- Home Dashboard
+- Create Todo
+- Edit Todo
+- Profile
+- Settings
+
+---
+
+## 🛠 Tech Stack
+
+- Flutter
+- Dart
+- Provider
+- SharedPreferences
+- Material Design 3
+
+---
+
+## 📂 Project Structure
+
+```
+lib/
+│
+├── core/
+├── controllers/
+├── models/
+├── screens/
+├── services/
+├── widgets/
+└── main.dart
+```
+
+---
+
+## 📦 Packages Used
+
+- provider
+- shared_preferences
+- intl
+- uuid
+
+---
+
+## 🚀 Getting Started
+
+Clone the repository
+
+```bash
+https://github.com/Usman-Ilyas-11/premium-todo-app-flutter.git
+```
+
+Install dependencies
+
+```bash
+flutter pub get
+```
+
+Run
+
+```bash
+flutter run
+```
+
+## 👨‍💻 Developer
+
+**Muhammad Usman Ilyas**
+
+Software Engineering Student
+
+Flutter Developer
+
+AI Enthusiast
+
+---
+
+⭐ If you like this project, give it a Star.
