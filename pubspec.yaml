@@ -1,0 +1,97 @@
+name: todo_app
+description: "Advanced Premium Flutter Todo Application"
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # State Management
+  provider: ^6.1.5+1
+
+  # Local Storage
+  shared_preferences: ^2.5.5
+
+  # Fonts
+  google_fonts: ^6.3.1
+
+  # Date Formatting
+  intl: ^0.20.2
+
+  # Beautiful Animations
+  flutter_animate: ^4.5.2
+  animations: ^2.0.11
+
+  # Lottie Animations
+  lottie: ^3.3.2
+
+  # List Animations
+  flutter_staggered_animations: ^1.1.1
+
+  # Charts
+  fl_chart: ^1.1.1
+
+  # Calendar
+  table_calendar: ^3.2.0
+
+  # Swipe Delete
+  flutter_slidable: ^4.0.1
+
+  # Circular Progress
+  percent_indicator: ^4.2.5
+
+  # SVG Icons
+  flutter_svg: ^2.2.1
+
+  # UUID Generator
+  uuid: ^4.5.1
+
+  # Local Notifications
+  flutter_local_notifications: ^19.4.1
+
+  # Timezone
+  timezone: ^0.10.1
+
+  # Permissions
+  permission_handler: ^12.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+  # App Icon Generator
+  flutter_launcher_icons: ^0.14.4
+
+  # Splash Screen Generator
+  flutter_native_splash: ^2.4.6
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/lottie/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/images/app_icon.png
+  min_sdk_android: 21
+
+flutter_native_splash:
+  color: "#6C63FF"
+  image: assets/images/splash_logo.png
+  android: true
+  ios: true
+  web: false
